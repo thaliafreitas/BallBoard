@@ -76,7 +76,6 @@ class ViewController: UIViewController {
         return ModelEntity.init(mesh: MeshResource.generateSphere(radius: 0.2))
     }
     
-    
 //    func loadSecondScene() {
 //        Experience.loadBallAsync { (loadedAnchor, error) in
 //            guard let gameAnchor = loadedAnchor, error == nil else {
@@ -86,7 +85,7 @@ class ViewController: UIViewController {
 //            self.arView.scene.anchors.append(gameAnchor)
 //        }
 //    }
-    
+
     
     
 }
