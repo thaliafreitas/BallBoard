@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5710EA2622B7B90B005D081E /* ViewController+ARAnchorPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710EA2522B7B90B005D081E /* ViewController+ARAnchorPlacement.swift */; };
+		5710EA2822B7BD93005D081E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710EA2722B7BD93005D081E /* OverlayView.swift */; };
+		5710EA2A22B7C874005D081E /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710EA2922B7C874005D081E /* GameController.swift */; };
 		57A1B58C22B269AC00EB03C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1B58B22B269AC00EB03C5 /* AppDelegate.swift */; };
 		57A1B58E22B269AC00EB03C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1B58D22B269AC00EB03C5 /* ViewController.swift */; };
 		57A1B59122B269AC00EB03C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A1B58F22B269AC00EB03C5 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5710EA2522B7B90B005D081E /* ViewController+ARAnchorPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARAnchorPlacement.swift"; sourceTree = "<group>"; };
+		5710EA2722B7BD93005D081E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		5710EA2922B7C874005D081E /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		57A1B58822B269AC00EB03C5 /* BallBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A1B58B22B269AC00EB03C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57A1B58D22B269AC00EB03C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +64,10 @@
 			children = (
 				57A1B58B22B269AC00EB03C5 /* AppDelegate.swift */,
 				57A1B58D22B269AC00EB03C5 /* ViewController.swift */,
+				5710EA2522B7B90B005D081E /* ViewController+ARAnchorPlacement.swift */,
+				5710EA2722B7BD93005D081E /* OverlayView.swift */,
 				57A1B58F22B269AC00EB03C5 /* Main.storyboard */,
+				5710EA2922B7C874005D081E /* GameController.swift */,
 				57A1B59222B269AC00EB03C5 /* Experience.rcproject */,
 				57A1B59422B269AF00EB03C5 /* Assets.xcassets */,
 				57A1B59622B269AF00EB03C5 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A1B58E22B269AC00EB03C5 /* ViewController.swift in Sources */,
+				5710EA2A22B7C874005D081E /* GameController.swift in Sources */,
 				57A1B58C22B269AC00EB03C5 /* AppDelegate.swift in Sources */,
+				5710EA2622B7B90B005D081E /* ViewController+ARAnchorPlacement.swift in Sources */,
 				57A1B59322B269AC00EB03C5 /* Experience.rcproject in Sources */,
+				5710EA2822B7BD93005D081E /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
